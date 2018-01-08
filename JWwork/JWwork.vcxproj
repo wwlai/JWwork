@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ComputerNetwork\Graph.h" />
+    <ClInclude Include="..\ComputerNetwork\Graphmtx.h" />
+    <ClInclude Include="..\ComputerNetwork\qat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ComputerNetwork\Graph.cpp" />
+    <ClCompile Include="..\ComputerNetwork\Graphmtx.cpp" />
+    <ClCompile Include="..\ComputerNetwork\test.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{80616348-3C9A-47C2-BC9A-00FC91A2CCC3}</ProjectGuid>
@@ -110,14 +120,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\作业\hw19\Graph.h" />
-    <ClInclude Include="..\..\作业\hw19\GraphApp.h" />
-    <ClInclude Include="..\..\作业\hw19\Graphlnk.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\作业\hw19\test.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

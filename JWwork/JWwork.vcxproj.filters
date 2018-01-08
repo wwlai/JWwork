@@ -15,18 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\作业\hw19\Graph.h">
+    <ClInclude Include="..\ComputerNetwork\Graph.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\作业\hw19\GraphApp.h">
+    <ClInclude Include="..\ComputerNetwork\Graphmtx.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\作业\hw19\Graphlnk.h">
+    <ClInclude Include="..\ComputerNetwork\qat.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\作业\hw19\test.cpp">
+    <ClCompile Include="..\ComputerNetwork\Graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ComputerNetwork\Graphmtx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ComputerNetwork\test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
