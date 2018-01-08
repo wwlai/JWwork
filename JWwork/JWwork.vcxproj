@@ -111,6 +111,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\作业\hw19\Graph.h" />
+    <ClInclude Include="..\..\作业\hw19\GraphApp.h" />
+    <ClInclude Include="..\..\作业\hw19\Graphlnk.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\作业\hw19\test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
